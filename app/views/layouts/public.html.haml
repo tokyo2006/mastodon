@@ -42,7 +42,9 @@
               %li= link_to t('about.api'), 'https://docs.joinmastodon.org/client/intro/'
           .column-2
             %h4= link_to t('about.what_is_mastodon'), 'https://joinmastodon.org/'
-            = link_to svg_logo, root_url, class: 'brand'
+            %ul
+              %li= link_to svg_logo, root_url, class: 'brand'
+              %li= link_to '苏ICP备2020059134号','http://beian.miit.gov.cn/'
           .column-3
             %h4= site_hostname
             %ul
